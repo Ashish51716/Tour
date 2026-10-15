@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- container -->
+    <div class="container-fluid">
+
+        <!-- navbar row -->
+        <div class="row px-sm-5">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Tour</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search" />
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- hero section -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./image/photo 2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./image/photo 1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/photo 3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- our services section -->
+        <div class="row">
+            <div class="col-sm-5 mx-auto text-center my-5">
+                <h2>Our Services</h2>
+                <hr class="w-25 mx-auto">
+                <p>
+                    Discover carefully designed domestic and international tour packages that suit every budget and
+                    travel style. Whether
+                    you're planning a family vacation, honeymoon, solo adventure, or group trip, we have the perfect
+                    itinerary for you.
+                </p>
+            </div>
+        </div>
+
+        <div class="row px-sm-5 pb-5">
+            <div class="col-sm-3 mx-auto">
+                <img class="rounded-4" style="width: 100%;" src="./image/photo 4.jpg" alt=""><br><br>
+                <img class="rounded-4" style="width: 100%;" src="./image/photo 5.jpg" alt="">
+            </div>
+
+            <div class="col-sm-7 mt-3 gap-3 d-flex align-items-center flex-wrap justify-content-evenly mx-auto">
+                <div class="card p-2 py-3 bg-secondary-subtle border-0" style="width: 22rem;">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">
+                            <i class="fa-solid fs-1 text-black fa-house-chimney-window"></i>
+                        </h6>
+                        <h5 class="card-title fw-bold my-3">Beautiful Condo</h5>
+                        <p class="card-text">
+                          Even the all-powerful Pointing has no control about the blind texts.
+                        </p>
+                    </div>
+                </div>
+                <div class="card p-2 py-3 bg-secondary-subtle border-0" style="width: 22rem;">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">
+                            <i class="fa-solid fs-1 text-black fa-house-chimney-window"></i>
+                        </h6>
+                        <h5 class="card-title fw-bold my-3">Easy to connect</h5>
+                        <p class="card-text ">
+                            Even the all-powerful Pointing has no control about the blind texts .
+                        </p>
+                    </div>
+                </div>
+                <div class="card p-2 py-3 bg-secondary-subtle border-0" style="width: 22rem;">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">
+                            <i class="fa-solid fa-utensils text-black "></i>
+                        </h6>
+                        <h5 class="card-title my-3 fw-bold">Reastuarnts & Cafe</h5>
+                        <p class="card-text">
+                             Even the all-powerful Pointing has no control about the blind texts.
+                        </p>
+                    </div>
+                </div>
+                <div class="card p-2 py-3 bg-secondary-subtle border-0" style="width: 22rem;">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">
+                           <i class="fa-solid fa-phone-volume text-black"></i>
+                        </h6>
+                        <h5 class="card-title my-3 fw-bold">24/7 Support</h5>
+                        <p class="card-text">
+                             Even the all-powerful Pointing has no control about the blind texts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- stats -->
+        <div class="row px-sm-5 py-5 text-center">
+
+            <div class="col-sm-3 mb-4 px-sm-5">
+                <h3 class="fw-bold stats-number">6,421</h3>
+                <span>No. of Travels</span>
+            </div>
+            <div class="col-sm-3 mb-4">
+                <h3 class="fw-bold stats-number">5,853</h3>
+                <span>No. of Travels</span>
+            </div>
+            <div class="col-sm-3 mb-4">
+                <h3 class="fw-bold stats-number">68</h3>
+                <span>No. of Travels</span>
+            </div>
+            <div class="col-sm-3 mb-4">
+                <h3 class="fw-bold stats-number">82</h3>
+                <span>No. of Travels</span>
+            </div>
+
+        </div>
+
+        <!-- popular destination -->
+        <div class="row px-sm-5 px-3">
+            <div class="col-sm-12 mb-5 w-sm-50 mx-auto text-center">
+                <h2>Popular Destination</h2>
+                <hr class="w-25 mx-auto">
+            </div>
+
+            <div class="col-sm-3 mx-auto my-2 p-3 rounded-5"
+                style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfw34AQbFsJevUc8bifQ7OJwA90qkO-fdrAH7tcyotCk4ilvt8dafFLrn&s=10'); height: 500px; background-size: 100% 100%">
+                <p class="fw-bold mb-0">Oia</p>
+                <p>Greece</p>
+            </div>
+            <div class="col-sm-3 mx-auto my-2 p-3 rounded-5"
+                style="background: url('https://tse4.mm.bing.net/th/id/OIP.80I7UmqEW5slWB5Nl7TVGAHaNJ?r=0&pid=Api&P=0&h=180'); height: 500px; background-size: 100% 100%">
+                <p class="fw-bold mb-0">Rialto Bridge</p>
+                <p>Italy</p>
+            </div>
+            <div class="col-sm-3 mx-auto my-2 p-3 rounded-5"
+                style="background: url('https://tse1.mm.bing.net/th/id/OIP.8ugsw-2yoniv74fDYuWHiQHaNK?r=0&pid=Api&P=0&h=180'); height: 500px; background-size: 100% 100%">
+                <p class="fw-bold mb-0">Perhentian Islands</p>
+                <p>Malasiya</p>
+            </div>
+
+        </div>
+
+        <!-- testimonials -->
+
+        <div class="row bg-secondary-subtle my-5">
+            <div class="col-sm-4 my-5 text-center mx-auto">
+                <h2>Testimonials</h2>
+                <hr class="w-25 mx-auto">
+            </div>
+            <div class="col-sm-9 mb-4 mx-auto px-sm-5 text-center ">
+                <img style="width: 100px;" class="mx-sm-5 mb-3 mx-auto" src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" alt="">
+                    <h3 class="my-3">Lukas delvin</h3>
+                    <p>
+                        "A journey isn't just about reaching a destination; it's about discovering new places, meeting new people, and finding a better version of yourself along the way."
+                    </p>
+            </div>
+        </div>
+
+        <!-- offer and discount -->
+        <div class="row">
+            <div class="col-sm-5 mx-auto text-center">
+                <h2>Special offers & Discounts</h2>
+                <hr class="w-25 mx-auto">
+                <p>Book your dream vacation today and enjoy up to 40% OFF on selected tour packages. Explore amazing destinations, comfortable stays, and unforgettable experiences at unbeatable prices. Hurry—this limited-time offer won't last long. Book now!</p>
+            </div>
+
+            <div class=" d-flex justify-content-evenly flex-wrap px-sm-5 my-3 my-sm-5">
+                <!-- card 1 -->
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfw34AQbFsJevUc8bifQ7OJwA90qkO-fdrAH7tcyotCk4ilvt8dafFLrn&s=10" class="card-img-top rounded-5 h-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text my-0">
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            Italy
+                        </p>
+                        <p class="my-0 fw-bold">Railto Mountain</p>
+                        <p class="fw-bold text-success">$520.00</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.80I7UmqEW5slWB5Nl7TVGAHaNJ?r=0&pid=Api&P=0&h=180" class="card-img-top rounded-5 h-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text my-0">
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            United States
+                        </p>
+                        <p class="my-0 fw-bold">Railto Mountain</p>
+                        <p class="fw-bold text-success">$520.00</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.8ugsw-2yoniv74fDYuWHiQHaNK?r=0&pid=Api&P=0&h=180" class="card-img-top rounded-5 h-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text my-0">
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                         Malaysia
+                        </p>
+                        <p class="my-0 fw-bold">Perhentian island</p>
+                        <p class="fw-bold text-success">$750.00</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/736x/2d/95/e5/2d95e5886fc4c65a6778b5fee94a7d59.jpg" class="card-img-top rounded-5 h-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text my-0">
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            Italy
+                        </p>
+                        <p class="my-0 fw-bold">Nature </p>
+                        <p class="fw-bold text-success">$520.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- video section -->
+        <div class="row px-sm-5 my-5">
+            <div class="col-sm-6 text-center">
+                <img  src="https://tse3.mm.bing.net/th/id/OIP.2qLo-aDhaSHAyrWyvXhOLQHaNK?r=0&pid=Api&P=0&h=180 " style="height: 640px; width: 400px;" rounded: 5px; >
+                  
+               
+            </div>
+            <div class="col-sm-5 me-auto">
+                <h2 class="fw-bold mt-5">Take a look at tour video</h2>
+                <hr class="w-25">
+                <p>Experience unforgettable adventures with our exciting tour packages. Discover breathtaking destinations, enjoy comfortable accommodations, taste local cuisine, and create lifelong memories with family and friends. Book your journey today and let every moment become a beautiful story worth sharing forever.</p>
+                <p>
+                    Join us for an unforgettable travel experience. Explore breathtaking destinations, enjoy exciting adventures, relax in comfortable accommodations, and create lifelong memories with your loved ones. Book your dream tour today and make every journey filled with happiness, fun, discovery, and unforgettable moments.
+                </p>
+                <ul type="circle" style="height: 300px;" class="d-flex flex-wrap flex-column gap-sm-4 align-content-evenly align-items-start justify-content-start">
+                    <li>Explore beautiful places with us.</li>
+                    <li>Create unforgettable memories every journey</li>
+                    <li>Adventure awaits your next trip.</li>
+                    <li>Discover nature's hidden amazing wonders.</li>
+                    <li>Travel today, smile forever always.</li>
+                    <li>Enjoy comfortable, safe, happy vacations.</li>
+                    <li>Book now, save more today.</li>
+                    <li>Experience exciting destinations with family.</li>
+                    <li>Your dream holiday starts here.</li>
+                    <li>Travel more, worry less, always.</li>
+                    
+                </ul>
+
+                <button class="btn text-white rounded-4" style="background-color: rgb(26, 0, 128);">Get Started</button>
+            </div>
+        </div>
+
+        <!-- get in touch -->
+        <div class="row py-5 px-sm-5" style="background-color: rgb(26, 0, 128);">
+            <div class="col-sm-8 mx-auto text-white text-center">
+                <h2>
+                  Lets you Explore the best. Contact Us Now
+                </h2>
+                <p>
+                   Contact us now and book your dream vacation with exclusive offers, unforgettable experiences, and amazing savings today. 
+                </p>
+                <button class="btn rounded-pill border-1 border-white text-white">Get in Touch</button>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row py-5 px-sm-5">
+            <div class="col-sm-3 mx-auto">
+                <h5 class="fw-bold">About Tour</h5>
+                <p>Discover breathtaking destinations, exciting adventures, comfortable stays, and unforgettable memories with our trusted tour packages designed for every traveler</p>
+                <div class="fs-5">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-snapchat"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-sm-1 mx-auto">
+                <h6 class="fw-bold mb-3">Pages</h6>
+                <p class="my-1">Blog</p>
+                <p class="my-1">Contact</p>
+                <p class="py-1">About</p>
+            </div>
+            <div class="col-sm-1 mx-auto">
+                <h6 class="fw-bold mb-3">Resources</h6>
+                <p class="my-1">Blog</p>
+                <p class="my-1">Contact</p>
+                <p class="py-1">About</p>
+            </div>
+            <div class="col-sm-3 mx-auto">
+                <h6 class="fw-bold mb-3">Contact</h6>
+                <p class="my-1"> <i class="fa-solid text-body-secondary fa-envelope"></i> kumarashish51716@gmail.com</p>
+                <p class="my-1"><i class="fa-solid text-body-secondary fa-phone"></i> 8303437948</p>
+                <p class="py-1"> <i class="fa-solid text-body-secondary fa-location-dot"></i> Sumerpur, Hamirpur Uttar Pradesh</p>
+            </div>
+
+            <div class="col-sm-6 mt-3 text-center mx-auto">
+               Copyright &copy; 2026. All rights reserved.
+               <br>
+               <p>Created with ❤️ by <span class="text-danger">#Ashish kumar.</span></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
